@@ -2,7 +2,7 @@
 
 This is a guide to compile your version of the ShashChess Engine. 
 
-It is GUI independent and it can work in the terminal.
+It is GUI independent and it can work in the terminal, but it's UCI (Universal Chess Interface), which means it's compatible with most GUIs (e.g. Arena, CuteChess, etc)
 
 ### Step 1:
 
@@ -48,6 +48,4 @@ Now that you have the executable, you can run it on the terminal:
 
 If everything went smoothly, you should now see the engine name and its authors.
 
-# 
-
-
+Please refer to an UCI guide to understand how to use the engine from here. 
