@@ -24,24 +24,27 @@ Then add the following configuration to the 'tasks.json' file to build the Stock
 
 ```json
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "Custom Build",
-            "type": "process",
-            "command": "${env:COMSPEC}",
-            "args": ["/c", "C:/git/ShashChess/src/build.bat"],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": [],
-            "presentation": {
-                "reveal": "always",
-                "panel": "shared"
-            }
-        }
-    ]
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Custom Build",
+            "type": "process",
+            "command": "${env:COMSPEC}",
+            "args": [
+                "/c",
+                "C:/git/ShashChess/src/build.bat"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        }
+    ]
 }
 ```
 
