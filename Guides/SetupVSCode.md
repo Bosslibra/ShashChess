@@ -53,32 +53,32 @@ Remaining in the '.vscode' folder, create the file 'launch.json' with the follow
 
 ```json
 {
-    version": "0.2.0",
-    configurations": [
-        {
-            "name": "Debug with GDB",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/shashchess.exe",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ],
-            "preLaunchTask": "Custom Build",
-            "miDebuggerPath": "C:/tools/msys64/mingw64/bin/gdb.exe",
-            "miDebuggerArgs": "",
-            "showDisplayString": true
-        }
-    ]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug with GDB",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/shashchess.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Custom Build",
+            "miDebuggerPath": "C:/tools/msys64/mingw64/bin/gdb.exe",
+            "miDebuggerArgs": "",
+            "showDisplayString": true
+        }
+    ]
 }
 ```
 
