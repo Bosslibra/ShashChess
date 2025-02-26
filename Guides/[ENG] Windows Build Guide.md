@@ -6,7 +6,7 @@ ShashChess is GUI independent and it can work in the termina, but it's UCI (Univ
 
 ### Step 1:
 
-Download and install MSYS2 from the [official website](msys2.org). 
+Download and install MSYS2 from the [official website](https://www.msys2.org). 
 
 While installing, change the installation directory to C:\tools\msys64
 
