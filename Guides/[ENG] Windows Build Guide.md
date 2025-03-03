@@ -107,5 +107,5 @@ pacman -Syu
 To compile run this command (inside MSYS shell):
 
 ```powershell
-make -j profile-build ARCH=x84_64-avx2
+make -j profile-build ARCH=x86-64
 ```
