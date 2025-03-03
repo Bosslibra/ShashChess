@@ -102,4 +102,10 @@ If you still have problems, run:
 pacman -Syu 
 ```
 
+### Step 6:
 
+To compile run this command (inside MSYS shell):
+
+```powershell
+make -j profile-build ARCH=x84_64-avx2
+```
